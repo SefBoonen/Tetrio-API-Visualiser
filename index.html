@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+                fetch("https://cors-anywhere.herokuapp.com/https://ch.tetr.io/api/users/slowmodead", {
+                    mode: "cors",
+                    
+                    })
+                    .then(function(response) {
+                        console.log(response.json());
+                    })
+                    .catch(function(err) {
+                        console.log(err);
+                    });
+                
+        </script>
+    </body>
+</html>

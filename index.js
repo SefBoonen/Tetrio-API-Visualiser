@@ -1,9 +1,13 @@
-const tetrio = require('tetrio-node')
+async function main() {
+    await fetch("https://api.giphy.com/v1/gifs/translate?api_key=WgYyQ9MGC9cnJ0uaM45WGdKN8arhwr00&s=cats", {
+        mode: "cors"
+    })
+    .then(function(response) {
+        console.log(response.json());
+    })
+    .catch(function(err) {
+        console.log(err)
+    });
+}
 
-const tetrioApi = new tetrio.Api("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZWYxMjQyYTlmNDQ0MjExMjk3NGM2OTIiLCJpYXQiOjE2OTMzODY0MDV9.9WCqShE0plcNE0eebcQImpkC_yvMxrdaVB0nBMVeypY", {
-    notFoundAsError: true, // Throw an error on not found instead of returning nothing. (default: true)
-});
-
-tetrioApi.getUser({ user: 'theya' }).then((user) => {
-    console.log(user.username)
-})
+main();
