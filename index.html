@@ -7,12 +7,15 @@
     </head>
     <body>
         <script>
-                fetch("https://cors-anywhere.herokuapp.com/https://ch.tetr.io/api/users/slowmodead", {
+                fetch("http://ch.tetr.io/api/users/slowmodead", {
+                    method: "GET",
                     mode: "cors",
-                    
+                    headers: {
+                        'Content-type': 'application/json',
+                    }
                     })
                     .then(function(response) {
-                        console.log(response.json());
+                        console.log(response);
                     })
                     .catch(function(err) {
                         console.log(err);
