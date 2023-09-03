@@ -10,7 +10,7 @@ const data = fetch("https://ch.tetr.io/api/users/slowmodead").then(response => {
 })
 
 console.log(data.then(e => {
-    fs.appendFile(path.join(__dirname, "tetrio.json"), JSON.stringify(e), err => {
+    fs.appendFile(path.join(__dirname, "tetrio.json"), JSON.stringify(e, null, 4), err => {
         if (err) throw err;
     })
 }))
