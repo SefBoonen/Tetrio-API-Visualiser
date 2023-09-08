@@ -5,14 +5,15 @@ const express = require('express');
 
 const app = express();
 
-app.get("/", (req, res) => {
-    fs.readFile(path.join(__dirname, "../frontend", "index.html"), (err, content) => {
-        res.writeHead(200, { "Content-Type": "text/html" });
-        res.end(content);
-    })
-})
+app.use(express.static(path.join(__dirname, "..", "frontend")));
 
-app.listen(3000);
+app.get("/", (req, res) => {
+    res.redirect("index.html");
+});
+
+app.listen(3000, "127.0.0.1", () => {
+    console.log(`Server running at http://127.0.0.1:3000`)
+});
 
 
 // const hostname = '127.0.0.1';
