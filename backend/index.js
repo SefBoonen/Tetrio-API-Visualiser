@@ -1,14 +1,24 @@
-const fs = require("fs");
+// const fs = require("fs");
 const path = require("path");
 // const http = require('http');
 const express = require('express');
 
 const app = express();
+app.use(express.json())
 
 app.use(express.static(path.join(__dirname, "..", "frontend")));
 
 app.get("/", (req, res) => {
     res.redirect("index.html");
+});
+
+app.post("/", (req, res) => {
+    const { parcel } = req.body;
+    console.log(parcel)
+    if(!parcel) {
+        return res.status(400).send({ status: "failed" })
+    }
+    res.status(200).send({ status: "received" })
 });
 
 app.listen(3000, "127.0.0.1", () => {
