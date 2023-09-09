@@ -6,19 +6,38 @@ const express = require('express');
 const app = express();
 app.use(express.json())
 
+test()
+
+async function test() {
+    let test = await fetch(`https://ch.tetr.io/api/users/slowmodead`).then(e => {
+        return e.json();
+    });
+
+    // console.log(test);
+}
+
+
+
 app.use(express.static(path.join(__dirname, "..", "frontend")));
 
 app.get("/", (req, res) => {
     res.redirect("index.html");
 });
 
-app.post("/", (req, res) => {
+app.post("/", async (req, res) => {
     const { parcel } = req.body;
-    console.log(parcel)
-    if(!parcel) {
+    console.log(`https://ch.tetr.io/api/users/${parcel}`)
+
+    if (!parcel) {
         return res.status(400).send({ status: "failed" })
     }
     res.status(200).send({ status: "received" })
+
+    const user = await fetch(`https://ch.tetr.io/api/users/${parcel}`).then(response => {
+        return response.json();
+    })
+
+    console.log(user);
 });
 
 app.listen(3000, "127.0.0.1", () => {
