@@ -28,7 +28,7 @@ app.post("/", async (req, res) => {
 
     const userid = user.data.user._id;
 
-    const news = await fetch(`https://ch.tetr.io/api/news/user_${userid}?limit=10`).then(response => {
+    const news = await fetch(`https://ch.tetr.io/api/news/user_${userid}?limit=100`).then(response => {
         return response.json();
     })
 
@@ -41,7 +41,7 @@ app.post("/", async (req, res) => {
         }
     })
 
-    fs.appendFile(path.join(__dirname, "tetrio.json"), JSON.stringify(data, null, 4), err => {
+    fs.appendFile(path.join(__dirname, "tetrio.json"), JSON.stringify(filtered, null, 4), err => {
         if (err) throw err;
     })
 });
