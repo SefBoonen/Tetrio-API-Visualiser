@@ -7,7 +7,7 @@ button.addEventListener("click", sendToBack)
 
 async function sendToBack(e) {
     e.preventDefault();
-    const res = await fetch(baseUrl, {
+    const res = await fetch(`${baseUrl}username`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
