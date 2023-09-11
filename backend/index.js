@@ -65,17 +65,19 @@ app.post("/username", async (req, res) => {
     })
 });
 
-app.get("/info", (req, res) => {
-    let data;
-    fs.readFile("./tetrio.json", "utf8", (err, jsonString) => {
+app.get("/info", async function(req, res) {
+    let json = "test";
+    let testvar = fs.readFileSync("./tetrio.json", "utf8", (err, data) => {
         if(err) {
             console.log(err);
             return;
         }
-        data = JSON.parse(jsonString);
+        json = JSON.parse(data);
+        // console.log(json)
     })
-    console.log(data)
-    res.status(200).json({info: "preset text"});
+    // console.log("get")
+    console.log(testvar)
+    // res.status(200).json({info: "preset text"});
 })
 
 app.listen(3000, "127.0.0.1", () => {
