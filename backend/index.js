@@ -4,7 +4,8 @@ const path = require("path");
 const express = require('express');
 
 const app = express();
-app.use(express.json())
+
+app.use(express.json());
 
 app.use(express.static(path.join(__dirname, "..", "frontend")));
 
@@ -63,6 +64,10 @@ app.post("/username", async (req, res) => {
         if (err) throw err;
     })
 });
+
+app.get("/info", (req, res) => {
+    res.status(200).j
+})
 
 app.listen(3000, "127.0.0.1", () => {
     console.log(`Server running at http://127.0.0.1:3000`)
