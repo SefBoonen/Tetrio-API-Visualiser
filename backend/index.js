@@ -66,7 +66,16 @@ app.post("/username", async (req, res) => {
 });
 
 app.get("/info", (req, res) => {
-    res.status(200).j
+    let data;
+    fs.readFile("./tetrio.json", "utf8", (err, jsonString) => {
+        if(err) {
+            console.log(err);
+            return;
+        }
+        data = JSON.parse(jsonString);
+    })
+    console.log(data)
+    res.status(200).json({info: "preset text"});
 })
 
 app.listen(3000, "127.0.0.1", () => {

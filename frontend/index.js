@@ -17,6 +17,12 @@ async function sendToBack(e) {
     //     })
     // })
 
-    const rec = await fetch(`${baseUrl}info`);
-    console.log(rec)
+    const rec = await fetch(`${baseUrl}info`, {method: "GET"});
+    console.log(rec);
+
+    const data = rec.json().then(e => {
+        return e;
+    });
+
+    console.log(data)
 }
