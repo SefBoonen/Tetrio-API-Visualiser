@@ -65,10 +65,6 @@ app.post("/username", async (req, res) => {
     })
 });
 
-app.get("/info", (req, res) => {
-    res.status(200).j
-})
-
 app.listen(3000, "127.0.0.1", () => {
     console.log(`Server running at http://127.0.0.1:3000`)
 });
