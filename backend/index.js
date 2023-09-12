@@ -41,9 +41,9 @@ app.post("/username", async (req, res) => {
 
     // console.log(filtered);
 
-    fs.appendFile(path.join(__dirname, "tetrio.json"), JSON.stringify(filtered, null, 4), err => {
-        if (err) throw err;
-    })
+    // fs.appendFile(path.join(__dirname, "tetrio.json"), JSON.stringify(filtered, null, 4), err => {
+    //     if (err) throw err;
+    // })
 
     //get recent stream
     const recent = await fetch(`https://ch.tetr.io/api/streams/any_userrecent_${userid}`).then(response => {
@@ -60,22 +60,21 @@ app.post("/username", async (req, res) => {
     })
 
     // console.log(recentData40L);
-    fs.appendFile(path.join(__dirname, `tetrio40LRecent${parcel}.json`), JSON.stringify(recentData40L, null, 4), err => {
-        if (err) throw err;
-    })
+    // fs.appendFile(path.join(__dirname, `tetrio40LRecent${parcel}.json`), JSON.stringify(recentData40L, null, 4), err => {
+    //     if (err) throw err;
+    // })
 });
 
 app.get("/info", (req, res) => {
-    let data;
-    fs.readFile("./tetrio.json", "utf8", (err, jsonString) => {
+    let data = fs.readFileSync("./tetrio.json", "utf8", (err, jsonString) => {
         if(err) {
             console.log(err);
             return;
         }
-        data = JSON.parse(jsonString);
+        // data = JSON.parse(jsonString);
     })
-    console.log(data)
-    res.status(200).json({info: "preset text"});
+    console.log(typeof(data));
+    res.status(200).json(data);
 })
 
 app.listen(3000, "127.0.0.1", () => {
