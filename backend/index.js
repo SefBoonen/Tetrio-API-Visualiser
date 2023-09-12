@@ -41,10 +41,12 @@ app.post("/username", async (req, res) => {
 
     // console.log(filtered);
 
-    // fs.appendFile(path.join(__dirname, "tetrio.json"), JSON.stringify(filtered, null, 4), err => {
-    //     if (err) throw err;
-    // })
+    fs.writeFile(path.join(__dirname, "tetrio.json"), JSON.stringify(filtered, null, 4), err => {
+        if (err) throw err;
+    })
 
+
+    //Recent thingy to do later
     //get recent stream
     const recent = await fetch(`https://ch.tetr.io/api/streams/any_userrecent_${userid}`).then(response => {
         return response.json();
@@ -73,7 +75,7 @@ app.get("/info", (req, res) => {
         }
         // data = JSON.parse(jsonString);
     })
-    console.log(typeof(data));
+    data = JSON.parse(data)
     res.status(200).json(data);
 })
 
