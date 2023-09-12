@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-// const http = require('http');
 const express = require('express');
 
 const app = express();
@@ -24,7 +23,6 @@ app.post("/username", async (req, res) => {
     })
 
     const userid = user.data.user._id;
-    // console.log(`https://ch.tetr.io/api/news/user_${userid}?limit=100`)
 
     const news = await fetch(`https://ch.tetr.io/api/news/user_${userid}?limit=100`).then(response => {
         return response.json();
@@ -39,32 +37,9 @@ app.post("/username", async (req, res) => {
         }
     })
 
-    // console.log(filtered);
-
     fs.writeFile(path.join(__dirname, "tetrio.json"), JSON.stringify(filtered, null, 4), err => {
         if (err) throw err;
     })
-
-
-    //Recent thingy to do later
-    //get recent stream
-    const recent = await fetch(`https://ch.tetr.io/api/streams/any_userrecent_${userid}`).then(response => {
-        return response.json();
-    })
-    // console.log(recent.data.records)
-
-    let recentData40L = [];
-
-    recent.data.records.map(x => {
-        if(x.endcontext.gametype == "40l") {
-            recentData40L.push(x)
-        }
-    })
-
-    // console.log(recentData40L);
-    // fs.appendFile(path.join(__dirname, `tetrio40LRecent${parcel}.json`), JSON.stringify(recentData40L, null, 4), err => {
-    //     if (err) throw err;
-    // })
 });
 
 app.get("/info", (req, res) => {
@@ -73,8 +48,8 @@ app.get("/info", (req, res) => {
             console.log(err);
             return;
         }
-        // data = JSON.parse(jsonString);
     })
+
     data = JSON.parse(data)
     res.status(200).json(data);
 })
