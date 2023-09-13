@@ -16,8 +16,6 @@ app.post("/username", async (req, res) => {
         return res.status(400).send({ status: "failed" })
     }
 
-    res.status(200).send({ status: "received" })
-
     //get all 40L
     const user = await fetch(`https://ch.tetr.io/api/users/${parcel}`).then(response => {
         return response.json();
@@ -37,6 +35,7 @@ app.post("/username", async (req, res) => {
             user40Ldata.push(e);
         }
     })
+    res.status(200).send({ status: "received" })
 });
 
 app.get("/info", (req, res) => {
