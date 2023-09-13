@@ -7,7 +7,7 @@ let user40Ldata = [];
 
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, "..", "frontend")));
+app.use(express.static(path.join(__dirname, "..", "frontend", "dist")));
 
 app.post("/username", async (req, res) => {
     const { parcel } = req.body;
