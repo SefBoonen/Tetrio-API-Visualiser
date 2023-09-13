@@ -1,4 +1,5 @@
-import Chart from "chart.js/auto"
+import Chart from "chart.js/auto";
+import "chartjs-adapter-date-fns";
 
 const button = document.getElementById("button");
 const input = document.getElementById("input");
@@ -7,15 +8,18 @@ const ctx = document.getElementById("chart");
 const chart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
     datasets: [{
       label: 'time in ms',
       data: [12, 19, 3, 5, 2, 3],
-      borderWidth: 2
+      borderWidth: 2,
+      stepped: true,
     }]
   },
   options: {
     scales: {
+      x: {
+        type: "time"
+      },
       y: {
         beginAtZero: true
       }
