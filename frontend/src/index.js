@@ -8,16 +8,12 @@ const ctx = document.getElementById("chart");
 const chart = new Chart(ctx, {
   type: 'line',
   data: {
-    datasets: [{
-      label: 'time in ms',
-      data: [12, 19, 3, 5, 2, 3],
-      borderWidth: 2,
-      stepped: true,
-    }]
+    datasets: []
   },
   options: {
     scales: {
       x: {
+        min: "2018-01-01 00:00:00",
         type: "time"
       },
       y: {
@@ -48,18 +44,24 @@ async function sendToBack() {
 
   const data = await res.json();
 
-  let dates = [];
-  let times = [];
+  const dataset = {
+    label: `${input.value}`,
+    labels: [],
+    data: [],
+    borderWidth: 2,
+    stepped: true,
+  };
 
   data.map(i => {
-    dates.push(i.ts);
+    dataset.labels.push(i.ts);
   })
 
   data.map(i => {
-    times.push(i.data.result);
+    dataset.data.push(i.data.result);
   })
 
-  chart.data.labels = dates;
-  chart.data.datasets[0].data = times;
+  console.log(dataset);
+
+  chart.data.datasets.push(dataset);
   chart.update();
 }
