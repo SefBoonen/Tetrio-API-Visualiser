@@ -44,6 +44,18 @@ async function sendToBack() {
 
   const data = await res.json();
 
+  let dates = [];
+  let times = [];
 
+  data.map(i => {
+    dates.push(i.ts);
+  })
+
+  data.map(i => {
+    times.push(i.data.result);
+  })
+
+  chart.data.labels = dates;
+  chart.data.datasets[0].data = times;
   chart.update();
 }
