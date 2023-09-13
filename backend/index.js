@@ -3,6 +3,7 @@ const path = require("path");
 const express = require('express');
 
 const app = express();
+let user40Ldata = [];
 
 app.use(express.json());
 
@@ -10,7 +11,7 @@ app.use(express.static(path.join(__dirname, "..", "frontend")));
 
 app.post("/username", async (req, res) => {
     const { parcel } = req.body;
-
+    
     if (!parcel) {
         return res.status(400).send({ status: "failed" })
     }
@@ -30,28 +31,16 @@ app.post("/username", async (req, res) => {
 
     const data = news.data.news;
     
-    let filtered = []; 
+    user40Ldata = []; 
     data.map(e => {
         if(e.data.gametype == "40l") {
-            filtered.push(e);
+            user40Ldata.push(e);
         }
-    })
-
-    fs.writeFile(path.join(__dirname, "tetrio.json"), JSON.stringify(filtered, null, 4), err => {
-        if (err) throw err;
     })
 });
 
 app.get("/info", (req, res) => {
-    let data = fs.readFileSync("./tetrio.json", "utf8", (err, jsonString) => {
-        if(err) {
-            console.log(err);
-            return;
-        }
-    })
-
-    data = JSON.parse(data)
-    res.status(200).json(data);
+    res.status(200).json(user40Ldata);
 })
 
 app.listen(3000, "127.0.0.1", () => {
