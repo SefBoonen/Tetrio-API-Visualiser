@@ -10,7 +10,7 @@ let recentDataStream;
 const slowmoUserId = "5ef1242a9f4442112974c692";
 
 let minutes = 5;
-let interval = 5000;
+let interval = minutes * 60 * 1000;
 
 app.use(express.json());
 
@@ -19,6 +19,7 @@ app.use(express.static(path.join(__dirname, "..", "frontend", "dist")));
 setInterval(fetchRecentStream, interval);
 
 async function fetchRecentStream() {
+    console.log("5 min")
     recentDataStream = JSON.parse(fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
         if(err) {
             throw err;
