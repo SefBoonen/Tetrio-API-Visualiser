@@ -19,7 +19,6 @@ app.use(express.static(path.join(__dirname, "..", "frontend", "dist")));
 setInterval(fetchRecentStream, interval);
 
 async function fetchRecentStream() {
-    console.log("every 5 mins");
     recentDataStream = JSON.parse(fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
         if(err) {
             throw err;
