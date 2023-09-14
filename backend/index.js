@@ -7,15 +7,8 @@ let user40Ldata = [];
 
 const slowmoUserId = "5ef1242a9f4442112974c692";
 
-let recentDataStream = JSON.parse(fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
-    if(err) {
-        throw err;
-    }
-    return data;
-}));
-
 let minutes = 5;
-let interval = 1000;
+let interval = 5000;
 
 app.use(express.json());
 
@@ -24,7 +17,20 @@ app.use(express.static(path.join(__dirname, "..", "frontend", "dist")));
 setInterval(fetchRecentStream, interval);
 
 async function fetchRecentStream() {
-    // console.log("every 5 mins");
+    console.log("every 5 mins");
+    let recentDataStream = JSON.parse(fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
+        if(err) {
+            throw err;
+        }
+        return data;
+    }));
+
+    let ids = [];
+
+    recentDataStream.map(data => {
+        ids.push(data._id)
+    })
+
     const recentStream = await fetch(`https://ch.tetr.io/api/streams/any_userrecent_${slowmoUserId}`).then(response => {
         return response.json();
     });
@@ -34,16 +40,21 @@ async function fetchRecentStream() {
     const filteredData = [];
 
     recentStream.data.records.map(data => {
-        if(data.endcontext.finesse.gameType == "40L") {
+        // console.log(data.endcontext.gametype)
+        if(data.endcontext.gametype == "40l") {
             filteredData.push(data);
         }
     });
 
-    
+    filteredData.map(data => {
+        if(!ids.includes(data._id)) {
+            recentDataStream.push(data);
+        }
+    });
 
     // console.log(filteredData)
     
-    fs.writeFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), JSON.stringify(recentStream, null, 4), (err) => {
+    fs.writeFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), JSON.stringify(recentDataStream, null, 4), (err) => {
         if(err) {
             console.log(err);;
         }
