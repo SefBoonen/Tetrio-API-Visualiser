@@ -5,6 +5,9 @@ const button = document.getElementById("button");
 const input = document.getElementById("input");
 const ctx = document.getElementById("chart");
 
+const colors = ["red", "green", "blue"];
+let lines = 0;
+
 const chart = new Chart(ctx, {
   type: 'line',
   data: {
@@ -28,7 +31,7 @@ const baseUrl = "http://127.0.0.1:3000/";
 button.addEventListener("click", sendToBack)
 
 async function sendToBack() {
-  await fetch(`${baseUrl}username`, {
+  const user = await fetch(`${baseUrl}username`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -37,6 +40,11 @@ async function sendToBack() {
       parcel: input.value
     })
   })
+
+  if (user.status != 200) {
+    alert("user not found");
+    return;
+  }
 
   const res = await fetch(`${baseUrl}info`, {
     method: "GET"
@@ -49,12 +57,16 @@ async function sendToBack() {
     label: `${input.value}`,
     borderWidth: 2,
     stepped: true,
-    borderColor: "red",
+    borderColor: colors[lines % 3],
   };
 
+  lines++;
+
   data.map(i => {
-    dataset.data.push({x: i.ts, 
-    y: i.data.result});
+    dataset.data.push({
+      x: i.ts,
+      y: i.data.result
+    });
   })
 
   chart.data.datasets.push(dataset)

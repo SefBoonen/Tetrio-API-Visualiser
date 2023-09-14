@@ -20,6 +20,10 @@ app.post("/username", async (req, res) => {
         return response.json();
     })
 
+    if(!user.success) {
+        return res.status(400).send({ status: "user not found" });
+    }
+
     const userid = user.data.user._id;
 
     const news = await fetch(`https://ch.tetr.io/api/news/user_${userid}?limit=100`).then(response => {
