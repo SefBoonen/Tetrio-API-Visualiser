@@ -5,6 +5,8 @@ const fs = require("fs");
 const app = express();
 let user40Ldata = [];
 
+let recentDataStream;
+
 const slowmoUserId = "5ef1242a9f4442112974c692";
 
 let minutes = 5;
@@ -18,7 +20,7 @@ setInterval(fetchRecentStream, interval);
 
 async function fetchRecentStream() {
     console.log("every 5 mins");
-    let recentDataStream = JSON.parse(fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
+    recentDataStream = JSON.parse(fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
         if(err) {
             throw err;
         }
@@ -96,6 +98,10 @@ app.post("/username", async (req, res) => {
 
 app.get("/info", (req, res) => {
     res.status(200).json(user40Ldata);
+})
+
+app.get("/runs", (req, res) => {
+    res.status(200).json(recentDataStream);
 })
 
 app.listen(3000, "127.0.0.1", () => {
