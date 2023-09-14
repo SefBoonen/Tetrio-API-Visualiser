@@ -7,6 +7,13 @@ let user40Ldata = [];
 
 const slowmoUserId = "5ef1242a9f4442112974c692";
 
+let recentDataStream = JSON.parse(fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
+    if(err) {
+        throw err;
+    }
+    return data;
+}));
+
 let minutes = 5;
 let interval = 1000;
 
@@ -15,21 +22,6 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "..", "frontend", "dist")));
 
 setInterval(fetchRecentStream, interval);
-
-recentStream();
-
-function recentStream() {
-    let recentDataStream = fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
-        if(err) {
-            throw err;
-        }
-        return data;
-    });
-
-    recentDataStream = JSON.parse(recentDataStream);
-
-    console.log(recentDataStream)
-}
 
 async function fetchRecentStream() {
     // console.log("every 5 mins");
@@ -46,6 +38,8 @@ async function fetchRecentStream() {
             filteredData.push(data);
         }
     });
+
+    
 
     // console.log(filteredData)
     
