@@ -56,8 +56,9 @@ async function sendToBack() {
     data: [],
     label: `${input.value}`,
     borderWidth: 2,
-    stepped: true,
+    stepped: "after",
     borderColor: colors[lines % 3],
+    pointRadius: 4,
   };
 
   lines++;
@@ -65,7 +66,7 @@ async function sendToBack() {
   data.map(i => {
     dataset.data.push({
       x: i.ts,
-      y: i.data.result
+      y: i.data.result / 1000,
     });
   })
 
