@@ -37,12 +37,9 @@ async function fetchRecentStream() {
         return response.json();
     });
 
-    // console.log(recentStream);
-
     const filteredData = [];
 
     recentStream.data.records.map(data => {
-        // console.log(data.endcontext.gametype)
         if(data.endcontext.gametype == "40l") {
             filteredData.push(data);
         }
@@ -53,8 +50,6 @@ async function fetchRecentStream() {
             recentDataStream.push(data);
         }
     });
-
-    // console.log(filteredData)
     
     fs.writeFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), JSON.stringify(recentDataStream, null, 4), (err) => {
         if(err) {
