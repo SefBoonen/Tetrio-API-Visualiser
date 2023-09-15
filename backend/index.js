@@ -72,7 +72,6 @@ async function fetchRecentStream() {
 
 app.get("/username/:dynamic", async (req, res) => {
     const { dynamic } = req.params;
-    console.log(dynamic)
 
     if (!dynamic) {
         return res.status(400).send({ status: "failed" });

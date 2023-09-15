@@ -12,6 +12,8 @@ const ctxRuns = document.getElementById("chartRuns");
 const colors = ["red", "green", "blue"];
 let lines = 0;
 
+const baseUrl = "http://127.0.0.1:3000/";
+
 const chart = new Chart(ctx, {
     type: "line",
     data: {
@@ -29,8 +31,6 @@ const chart = new Chart(ctx, {
         },
     },
 });
-
-const baseUrl = "http://127.0.0.1:3000/";
 
 button.addEventListener("click", sendToBack);
 
@@ -50,9 +50,9 @@ async function drawRuns() {
                         wheel: {
                             enabled: true,
                         },
-                        drag: {
-                            enabled: true,
-                        },
+                    },
+                    pan: {
+                        enabled: true,
                     },
                 },
             },
@@ -92,7 +92,7 @@ async function drawRuns() {
 
     const runs = await fetch(`${baseUrl}runs`, {
         method: "GET",
-    }).then(response => response.json());
+    }).then((response) => response.json());
 
     const datasetRuns = {
         type: "scatter",
