@@ -92,7 +92,7 @@ async function drawRuns() {
 
     const runs = await fetch(`${baseUrl}runs`, {
         method: "GET",
-    });
+    }).then(response => response.json());
 
     const datasetRuns = {
         type: "scatter",
@@ -102,7 +102,7 @@ async function drawRuns() {
         pointRadius: 1,
     };
 
-    dataRuns.map((data) => {
+    runs.map((data) => {
         datasetRuns.data.push({
             x: data.ts,
             y: data.endcontext.finalTime / 1000,
