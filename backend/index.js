@@ -16,10 +16,12 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, "..", "frontend", "dist")));
 
+fetchRecentStream();
+
 setInterval(fetchRecentStream, interval);
 
 async function fetchRecentStream() {
-    console.log("5 min");
+    console.log(new Date)
     recentDataStream = JSON.parse(
         fs.readFileSync(
             path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`),
