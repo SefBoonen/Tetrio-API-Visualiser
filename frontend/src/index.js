@@ -1,5 +1,8 @@
 import Chart from "chart.js/auto";
 import "chartjs-adapter-date-fns";
+import zoomPlugin from 'chartjs-plugin-zoom';
+
+Chart.register(zoomPlugin);
 
 const button = document.getElementById("button");
 const input = document.getElementById("input");
@@ -41,6 +44,18 @@ async function drawRuns() {
       datasets: []
     },
     options: {
+      plugins: {
+        zoom: {
+          zoom: {
+            wheel: {
+              enabled: true
+            },
+            drag: {
+              enabled: true
+            }
+          },
+        },
+      },
       scales: {
         x: {
           type: "time"

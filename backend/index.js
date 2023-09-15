@@ -9,7 +9,7 @@ let recentDataStream;
 
 const slowmoUserId = "5ef1242a9f4442112974c692";
 
-let minutes = 5;
+let minutes = 1;
 let interval = minutes * 60 * 1000;
 
 app.use(express.json());
@@ -21,7 +21,7 @@ setInterval(fetchRecentStream, interval);
 async function fetchRecentStream() {
     console.log("5 min")
     recentDataStream = JSON.parse(fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
-        if(err) {
+        if (err) {
             throw err;
         }
         return data;
@@ -40,19 +40,19 @@ async function fetchRecentStream() {
     const filteredData = [];
 
     recentStream.data.records.map(data => {
-        if(data.endcontext.gametype == "40l") {
+        if (data.endcontext.gametype == "40l") {
             filteredData.push(data);
         }
     });
 
     filteredData.map(data => {
-        if(!ids.includes(data._id)) {
+        if (!ids.includes(data._id)) {
             recentDataStream.push(data);
         }
     });
-    
+
     fs.writeFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), JSON.stringify(recentDataStream, null, 4), (err) => {
-        if(err) {
+        if (err) {
             console.log(err);;
         }
     });
@@ -60,7 +60,7 @@ async function fetchRecentStream() {
 
 app.post("/username", async (req, res) => {
     const { parcel } = req.body;
-    
+
     if (!parcel) {
         return res.status(400).send({ status: "failed" })
     }
@@ -70,7 +70,7 @@ app.post("/username", async (req, res) => {
         return response.json();
     })
 
-    if(!user.success) {
+    if (!user.success) {
         return res.status(400).send({ status: "user not found" });
     }
 
@@ -81,10 +81,10 @@ app.post("/username", async (req, res) => {
     })
 
     const data = news.data.news;
-    
-    user40Ldata = []; 
+
+    user40Ldata = [];
     data.map(e => {
-        if(e.data.gametype == "40l") {
+        if (e.data.gametype == "40l") {
             user40Ldata.push(e);
         }
     })
