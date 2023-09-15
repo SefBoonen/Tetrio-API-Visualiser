@@ -70,15 +70,16 @@ async function fetchRecentStream() {
     );
 }
 
-app.post("/username", async (req, res) => {
-    const { parcel } = req.body;
+app.get("/username/:dynamic", async (req, res) => {
+    const { dynamic } = req.params;
+    console.log(dynamic)
 
-    if (!parcel) {
+    if (!dynamic) {
         return res.status(400).send({ status: "failed" });
     }
 
     //get all 40L
-    const user = await fetch(`https://ch.tetr.io/api/users/${parcel}`).then(
+    const user = await fetch(`https://ch.tetr.io/api/users/${dynamic}`).then(
         (response) => {
             return response.json();
         }
@@ -104,10 +105,6 @@ app.post("/username", async (req, res) => {
             user40Ldata.push(e);
         }
     });
-    res.status(200).send({ status: "received" });
-});
-
-app.get("/info", (req, res) => {
     res.status(200).json(user40Ldata);
 });
 
