@@ -34,106 +34,88 @@ const baseUrl = "http://127.0.0.1:3000/";
 
 button.addEventListener("click", sendToBack);
 
-// drawRuns();
+drawRuns();
 
-// async function drawRuns() {
-//     const chartRuns = new Chart(ctxRuns, {
-//         type: "line",
-//         data: {
-//             labels: [],
-//             datasets: [],
-//         },
-//         options: {
-//             plugins: {
-//                 zoom: {
-//                     zoom: {
-//                         wheel: {
-//                             enabled: true,
-//                         },
-//                         drag: {
-//                             enabled: true,
-//                         },
-//                     },
-//                 },
-//             },
-//             scales: {
-//                 x: {
-//                     type: "time",
-//                 },
-//                 y: {
-//                     beginAtZero: true,
-//                 },
-//             },
-//         },
-//     });
+async function drawRuns() {
+    const chartRuns = new Chart(ctxRuns, {
+        type: "line",
+        data: {
+            labels: [],
+            datasets: [],
+        },
+        options: {
+            plugins: {
+                zoom: {
+                    zoom: {
+                        wheel: {
+                            enabled: true,
+                        },
+                        drag: {
+                            enabled: true,
+                        },
+                    },
+                },
+            },
+            scales: {
+                x: {
+                    type: "time",
+                },
+                y: {
+                    beginAtZero: true,
+                },
+            },
+        },
+    });
 
-//     await fetch(`${baseUrl}username`, {
-//         method: "POST",
-//         headers: {
-//             "Content-Type": "application/json",
-//         },
-//         body: JSON.stringify({
-//             parcel: "slowmodead",
-//         }),
-//     });
+    const data = await fetch(`${baseUrl}username/slowmodead`, {
+        method: "GET",
+    }).then((response) => response.json());
 
-//     const res = await fetch(`${baseUrl}info`, {
-//         method: "GET",
-//     });
+    const dataset = {
+        data: [],
+        label: `slowmodead`,
+        borderWidth: 2,
+        stepped: "after",
+        borderColor: "blue",
+        pointRadius: 4,
+    };
 
-//     const data = await res.json();
+    data.map((i) => {
+        dataset.data.push({
+            x: i.ts,
+            y: i.data.result / 1000,
+        });
+    });
 
-//     const dataset = {
-//         data: [],
-//         label: `slowmodead`,
-//         borderWidth: 2,
-//         stepped: "after",
-//         borderColor: "blue",
-//         pointRadius: 4,
-//     };
+    chartRuns.data.datasets.push(dataset);
+    chartRuns.update();
 
-//     data.map((i) => {
-//         dataset.data.push({
-//             x: i.ts,
-//             y: i.data.result / 1000,
-//         });
-//     });
+    const runs = await fetch(`${baseUrl}runs`, {
+        method: "GET",
+    });
 
-//     chartRuns.data.datasets.push(dataset);
-//     chartRuns.update();
+    const datasetRuns = {
+        type: "scatter",
+        data: [],
+        label: "Runs",
+        borderColor: "black",
+        pointRadius: 1,
+    };
 
-//     const runs = await fetch(`${baseUrl}runs`, {
-//         method: "GET",
-//     });
+    dataRuns.map((data) => {
+        datasetRuns.data.push({
+            x: data.ts,
+            y: data.endcontext.finalTime / 1000,
+        });
+    });
 
-//     const dataRuns = await runs.json();
-//     console.log(dataRuns);
-
-//     const datasetRuns = {
-//         type: "scatter",
-//         data: [],
-//         label: "Runs",
-//         borderColor: "black",
-//         pointRadius: 1,
-//     };
-
-//     dataRuns.map((data) => {
-//         datasetRuns.data.push({
-//             x: data.ts,
-//             y: data.endcontext.finalTime / 1000,
-//         });
-//     });
-
-//     chartRuns.data.datasets.push(datasetRuns);
-//     chartRuns.update();
-// }
+    chartRuns.data.datasets.push(datasetRuns);
+    chartRuns.update();
+}
 
 async function sendToBack() {
     const res = await fetch(`${baseUrl}username/${input.value}`, {
         method: "GET",
-        headers: {
-            "Content-Type": "application/json",
-        },
     });
 
     if (res.status != 200) {
