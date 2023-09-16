@@ -5,6 +5,7 @@ import zoomPlugin from "chartjs-plugin-zoom";
 Chart.register(zoomPlugin);
 
 const button = document.getElementById("button");
+const averageTime = document.getElementById("averageTime");
 const input = document.getElementById("input");
 const ctx = document.getElementById("chart");
 const ctxRuns = document.getElementById("chartRuns");
@@ -78,10 +79,10 @@ async function drawRuns() {
         pointRadius: 4,
     };
 
-    data.map((i) => {
+    data.forEach((e) => {
         dataset.data.push({
-            x: i.ts,
-            y: i.data.result / 1000,
+            x: e.ts,
+            y: e.data.result / 1000,
         });
     });
 
@@ -89,6 +90,14 @@ async function drawRuns() {
     chartRuns.update();
 
     const runs = await fetch(`${baseUrl}runs`, { method: "GET" }).then((response) => response.json());
+
+    let sum = 0;
+
+    for (let i = runs.length - 10; i < runs.length; i++) {
+        sum += runs[i].endcontext.finalTime / 1000;
+    }
+
+    averageTime.innerText = `The average over the last 10 runs: ${sum / 10}`;
 
     const datasetRuns = {
         type: "scatter",
@@ -98,10 +107,10 @@ async function drawRuns() {
         pointRadius: 1,
     };
 
-    runs.map((data) => {
+    runs.forEach((e) => {
         datasetRuns.data.push({
-            x: data.ts,
-            y: data.endcontext.finalTime / 1000,
+            x: e.ts,
+            y: e.endcontext.finalTime / 1000,
         });
     });
 
@@ -130,10 +139,10 @@ async function sendToBack() {
 
     lines++;
 
-    data.map((i) => {
+    data.forEach((e) => {
         dataset.data.push({
-            x: i.ts,
-            y: i.data.result / 1000,
+            x: e.ts,
+            y: e.data.result / 1000,
         });
     });
 
