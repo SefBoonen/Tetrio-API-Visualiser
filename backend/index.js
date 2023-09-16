@@ -23,35 +23,24 @@ async function fetchRecentStream() {
     console.log(new Date());
 
     recentDataStream = JSON.parse(
-        fs.readFileSync(
-            path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`),
-            "utf-8",
-            (err, data) => {
-                if (err) {
-                    throw err;
-                }
-                return data;
+        fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
+            if (err) {
+                throw err;
             }
-        )
+            return data;
+        })
     );
 
     let ids = [];
+    recentDataStream.forEach((e) => ids.push(e._id));
 
-    recentDataStream.map((data) => {
-        ids.push(data._id);
-    });
-
-    const recentStream = await fetch(
-        `https://ch.tetr.io/api/streams/any_userrecent_${slowmoUserId}`
-    ).then((response) => {
-        return response.json();
-    });
+    const recentStream = await fetch(`https://ch.tetr.io/api/streams/any_userrecent_${slowmoUserId}`).then((response) =>
+        response.json()
+    );
 
     recentStream.data.records.map((data) => {
-        if (data.endcontext.gametype == "40l") {
-            if (!ids.includes(data._id)) {
-                recentDataStream.push(data);
-            }
+        if (data.endcontext.gametype == "40l" && !ids.includes(data._id)) {
+            recentDataStream.push(data);
         }
     });
 
@@ -59,9 +48,7 @@ async function fetchRecentStream() {
         path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`),
         JSON.stringify(recentDataStream, null, 4),
         (err) => {
-            if (err) {
-                console.log(err);
-            }
+            if (err) console.log(err);
         }
     );
 }
@@ -69,27 +56,17 @@ async function fetchRecentStream() {
 app.get("/username/:dynamic", async (req, res) => {
     const { dynamic } = req.params;
 
-    const user = await fetch(`https://ch.tetr.io/api/users/${dynamic}`).then(
-        (response) => {
-            return response.json();
-        }
+    const user = await fetch(`https://ch.tetr.io/api/users/${dynamic}`).then((response) => response.json());
+
+    if (!user.success) return res.status(400).send({ status: "user not found" });
+
+    const news = await fetch(`https://ch.tetr.io/api/news/user_${user.data.user._id}?limit=100`).then((response) =>
+        response.json()
     );
 
-    if (!user.success) {
-        return res.status(400).send({ status: "user not found" });
-    }
-
-    const news = await fetch(
-        `https://ch.tetr.io/api/news/user_${user.data.user._id}?limit=100`
-    ).then((response) => {
-        return response.json();
-    });
-
     let user40Ldata = [];
-    news.data.news.map((e) => {
-        if (e.data.gametype == "40l") {
-            user40Ldata.push(e);
-        }
+    news.data.news.forEach((e) => {
+        if (e.data.gametype == "40l") user40Ldata.push(e);
     });
     res.status(200).json(user40Ldata);
 });

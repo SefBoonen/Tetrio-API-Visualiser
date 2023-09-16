@@ -67,9 +67,7 @@ async function drawRuns() {
         },
     });
 
-    const data = await fetch(`${baseUrl}username/slowmodead`, {
-        method: "GET",
-    }).then((response) => response.json());
+    const data = await fetch(`${baseUrl}username/slowmodead`, { method: "GET" }).then((response) => response.json());
 
     const dataset = {
         data: [],
@@ -90,9 +88,7 @@ async function drawRuns() {
     chartRuns.data.datasets.push(dataset);
     chartRuns.update();
 
-    const runs = await fetch(`${baseUrl}runs`, {
-        method: "GET",
-    }).then((response) => response.json());
+    const runs = await fetch(`${baseUrl}runs`, { method: "GET" }).then((response) => response.json());
 
     const datasetRuns = {
         type: "scatter",
@@ -114,16 +110,14 @@ async function drawRuns() {
 }
 
 async function sendToBack() {
-    const res = await fetch(`${baseUrl}username/${input.value}`, {
-        method: "GET",
-    });
+    const data = await fetch(`${baseUrl}username/${input.value}`, { method: "GET" }).then(response => response.json());
 
     if (res.status != 200) {
         alert("user not found");
         return;
     }
 
-    const data = await res.json();
+    const  = await res.json();
 
     const dataset = {
         data: [],
