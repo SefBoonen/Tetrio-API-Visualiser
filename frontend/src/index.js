@@ -110,14 +110,14 @@ async function drawRuns() {
 }
 
 async function sendToBack() {
-    const data = await fetch(`${baseUrl}username/${input.value}`, { method: "GET" }).then(response => response.json());
+    const data = await fetch(`${baseUrl}username/${input.value}`, { method: "GET" }).then((response) =>
+        response.json()
+    );
 
     if (res.status != 200) {
         alert("user not found");
         return;
     }
-
-    const  = await res.json();
 
     const dataset = {
         data: [],
