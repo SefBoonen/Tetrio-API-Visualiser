@@ -20,7 +20,8 @@ setInterval(fetchRecentStream, interval);
 async function fetchRecentStream() {
     const slowmoUserId = "5ef1242a9f4442112974c692";
 
-    console.log(new Date)
+    console.log(new Date());
+
     recentDataStream = JSON.parse(
         fs.readFileSync(
             path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`),
@@ -50,13 +51,9 @@ async function fetchRecentStream() {
 
     recentStream.data.records.map((data) => {
         if (data.endcontext.gametype == "40l") {
-            filteredData.push(data);
-        }
-    });
-
-    filteredData.map((data) => {
-        if (!ids.includes(data._id)) {
-            recentDataStream.push(data);
+            if (!ids.includes(data._id)) {
+                recentDataStream.push(data);
+            }
         }
     });
 
