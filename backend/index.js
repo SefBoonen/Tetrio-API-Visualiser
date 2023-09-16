@@ -47,8 +47,6 @@ async function fetchRecentStream() {
         return response.json();
     });
 
-    const filteredData = [];
-
     recentStream.data.records.map((data) => {
         if (data.endcontext.gametype == "40l") {
             if (!ids.includes(data._id)) {
