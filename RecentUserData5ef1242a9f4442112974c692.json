@@ -8968,5 +8968,3524 @@
             "_id": "5ef1242a9f4442112974c692",
             "username": "slowmodead"
         }
+    },
+    {
+        "_id": "6504777329c7402b399ffd60",
+        "endcontext": {
+            "seed": 1176724523,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 335,
+            "holds": 26,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 14286,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 1,
+            "btb": 10,
+            "topbtb": 10,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 108,
+            "clears": {
+                "singles": 0,
+                "doubles": 0,
+                "triples": 0,
+                "quads": 10,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 75,
+                "faults": 5,
+                "perfectpieces": 106
+            },
+            "finalTime": 47948.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "6504777329c7402b399ffd5f",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:25:39.930Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "650477b9d28d12687421ca4f",
+        "endcontext": {
+            "seed": 1641235061,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 341,
+            "holds": 37,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 15468,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 2,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 5,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 105,
+            "clears": {
+                "singles": 6,
+                "doubles": 3,
+                "triples": 0,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 1
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 6,
+                "faults": 13,
+                "perfectpieces": 100
+            },
+            "finalTime": 56453.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "650477b9d28d12687421ca4e",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:26:49.677Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047a5cd7bcdbca6906e5cf",
+        "endcontext": {
+            "seed": 2091528207,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 327,
+            "holds": 29,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13985,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 2,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 9,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 103,
+            "clears": {
+                "singles": 1,
+                "doubles": 0,
+                "triples": 1,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 32,
+                "faults": 13,
+                "perfectpieces": 98
+            },
+            "finalTime": 55401.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047a5cd7bcdbca6906e5ce",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:38:04.486Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047ab429c7402b399ffe4a",
+        "endcontext": {
+            "seed": 2055853947,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 318,
+            "holds": 24,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13496,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 103,
+            "clears": {
+                "singles": 2,
+                "doubles": 0,
+                "triples": 2,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 9,
+                "faults": 3,
+                "perfectpieces": 101
+            },
+            "finalTime": 48356.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047ab429c7402b399ffe49",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:39:32.420Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047af3d256136e9286e6b4",
+        "endcontext": {
+            "seed": 1173837353,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 309,
+            "holds": 22,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12994,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 1,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 3,
+                "doubles": 1,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 33,
+                "faults": 5,
+                "perfectpieces": 97
+            },
+            "finalTime": 43250,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047af3d256136e9286e6b3",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:40:35.285Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047b9591345068d2568bd0",
+        "endcontext": {
+            "seed": 1721347286,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 342,
+            "holds": 45,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13490,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 4,
+            "btb": 1,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 103,
+            "clears": {
+                "singles": 2,
+                "doubles": 1,
+                "triples": 0,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 103,
+                "faults": 0,
+                "perfectpieces": 103
+            },
+            "finalTime": 47265,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047b9591345068d2568bcf",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:43:17.543Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047bf7d256136e9286e6ef",
+        "endcontext": {
+            "seed": 2024097929,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 325,
+            "holds": 33,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 11144,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 2,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 6,
+                "doubles": 3,
+                "triples": 0,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 24,
+                "faults": 3,
+                "perfectpieces": 99
+            },
+            "finalTime": 48393.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047bf7d256136e9286e6ee",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:44:55.567Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047d081fcce341721def1d",
+        "endcontext": {
+            "seed": 139373480,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 327,
+            "holds": 32,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13346,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 3,
+                "doubles": 1,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 0,
+                "faults": 15,
+                "perfectpieces": 96
+            },
+            "finalTime": 49923.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047d081fcce341721def1c",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:49:28.648Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047dbed28d12687421cbda",
+        "endcontext": {
+            "seed": 518241656,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 331,
+            "holds": 34,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 11670,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 2,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 3,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 3,
+                "doubles": 2,
+                "triples": 3,
+                "quads": 6,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 37,
+                "faults": 4,
+                "perfectpieces": 99
+            },
+            "finalTime": 51280,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047dbed28d12687421cbd9",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:52:30.279Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047e0ae58fbbf255e59be7",
+        "endcontext": {
+            "seed": 464092630,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 303,
+            "holds": 18,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12074,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 3,
+            "currentcombopower": null,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 3,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 4,
+                "doubles": 1,
+                "triples": 2,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 20,
+                "faults": 6,
+                "perfectpieces": 96
+            },
+            "finalTime": 47700,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047e0ae58fbbf255e59be6",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:53:46.925Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047e8a2cdcaa4d63bf043f",
+        "endcontext": {
+            "seed": 1467808161,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 310,
+            "holds": 29,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12332,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 2,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 5,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 1,
+                "doubles": 2,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 52,
+                "faults": 1,
+                "perfectpieces": 100
+            },
+            "finalTime": 44278.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047e8a2cdcaa4d63bf043e",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:55:54.826Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047ebb327e4f03ac20af1d",
+        "endcontext": {
+            "seed": 1257072343,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 321,
+            "holds": 31,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 11684,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 5,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 3,
+                "doubles": 3,
+                "triples": 1,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 102,
+                "faults": 0,
+                "perfectpieces": 102
+            },
+            "finalTime": 43148.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047ebb327e4f03ac20af1c",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:56:43.304Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047efe91345068d2568ca9",
+        "endcontext": {
+            "seed": 345417728,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 319,
+            "holds": 23,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 11134,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 3,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 8,
+                "doubles": 1,
+                "triples": 2,
+                "quads": 6,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 26,
+                "faults": 4,
+                "perfectpieces": 99
+            },
+            "finalTime": 47411.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047efe91345068d2568ca8",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:57:50.758Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65047f4391345068d2568cbc",
+        "endcontext": {
+            "seed": 457584499,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 321,
+            "holds": 24,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13308,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 1,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 104,
+            "clears": {
+                "singles": 1,
+                "doubles": 2,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 44,
+                "faults": 3,
+                "perfectpieces": 102
+            },
+            "finalTime": 45531.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65047f4391345068d2568cbb",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T15:58:59.800Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048b052cdcaa4d63bf074f",
+        "endcontext": {
+            "seed": 379450291,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 321,
+            "holds": 27,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13120,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 4,
+                "doubles": 2,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 5,
+                "faults": 6,
+                "perfectpieces": 97
+            },
+            "finalTime": 52266.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048b052cdcaa4d63bf074e",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T16:49:09.603Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048b5255a5bf62f42e9511",
+        "endcontext": {
+            "seed": 831493673,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 341,
+            "holds": 38,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13026,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 104,
+            "clears": {
+                "singles": 3,
+                "doubles": 1,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 6,
+                "faults": 8,
+                "perfectpieces": 100
+            },
+            "finalTime": 54998.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048b5255a5bf62f42e9510",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T16:50:26.937Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048b82d256136e9286ebaf",
+        "endcontext": {
+            "seed": 591699279,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 309,
+            "holds": 29,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13666,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 9,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 4,
+                "doubles": 0,
+                "triples": 0,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 101,
+                "faults": 0,
+                "perfectpieces": 101
+            },
+            "finalTime": 44346.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048b82d256136e9286ebae",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T16:51:14.791Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048c105a873632a5e2b242",
+        "endcontext": {
+            "seed": 359320687,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 318,
+            "holds": 33,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13764,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 1,
+            "btb": 0,
+            "topbtb": 9,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 104,
+            "clears": {
+                "singles": 1,
+                "doubles": 0,
+                "triples": 1,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 62,
+                "faults": 3,
+                "perfectpieces": 102
+            },
+            "finalTime": 44863.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048c105a873632a5e2b241",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T16:53:36.252Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048c505a873632a5e2b25b",
+        "endcontext": {
+            "seed": 1696704551,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 339,
+            "holds": 27,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12322,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 5,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 103,
+            "clears": {
+                "singles": 2,
+                "doubles": 3,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 1,
+                "faults": 14,
+                "perfectpieces": 93
+            },
+            "finalTime": 53860,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048c505a873632a5e2b25a",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T16:54:40.645Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048c8791345068d2568fb9",
+        "endcontext": {
+            "seed": 492670434,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 332,
+            "holds": 36,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13416,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 104,
+            "clears": {
+                "singles": 2,
+                "doubles": 1,
+                "triples": 0,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 52,
+                "faults": 4,
+                "perfectpieces": 101
+            },
+            "finalTime": 51008.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048c8791345068d2568fb8",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T16:55:35.428Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048d1ae58fbbf255e59fef",
+        "endcontext": {
+            "seed": 1433584686,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 347,
+            "holds": 36,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13416,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 4,
+            "currentcombopower": null,
+            "topcombo": 4,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 103,
+            "clears": {
+                "singles": 2,
+                "doubles": 1,
+                "triples": 0,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 2,
+                "faults": 16,
+                "perfectpieces": 97
+            },
+            "finalTime": 53431.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048d1ae58fbbf255e59fee",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T16:58:02.952Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048d9b91345068d2568fdc",
+        "endcontext": {
+            "seed": 567623390,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 323,
+            "holds": 40,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13948,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 9,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 2,
+                "doubles": 1,
+                "triples": 0,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 99,
+                "faults": 1,
+                "perfectpieces": 101
+            },
+            "finalTime": 47410,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048d9b91345068d2568fdb",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:00:11.360Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048dfba9a268b1c8a419b3",
+        "endcontext": {
+            "seed": 169835419,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 325,
+            "holds": 35,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12781,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 2,
+            "currentcombopower": 0,
+            "topcombo": 4,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 5,
+                "doubles": 0,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 56,
+                "faults": 4,
+                "perfectpieces": 98
+            },
+            "finalTime": 53961.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048dfba9a268b1c8a419b2",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:01:47.494Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048e77a9a268b1c8a419d3",
+        "endcontext": {
+            "seed": 1827779115,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 326,
+            "holds": 35,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 14656,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 1,
+            "btb": 10,
+            "topbtb": 10,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 0,
+                "doubles": 0,
+                "triples": 0,
+                "quads": 10,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 20,
+                "faults": 4,
+                "perfectpieces": 99
+            },
+            "finalTime": 42578.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048e77a9a268b1c8a419d2",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:03:51.608Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048ea855a5bf62f42e95f8",
+        "endcontext": {
+            "seed": 1609590404,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 324,
+            "holds": 28,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 11150,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 4,
+            "btb": 0,
+            "topbtb": 3,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 8,
+                "doubles": 2,
+                "triples": 0,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 19,
+                "faults": 5,
+                "perfectpieces": 98
+            },
+            "finalTime": 45633.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048ea855a5bf62f42e95f7",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:04:40.601Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048f8c327e4f03ac20b2c4",
+        "endcontext": {
+            "seed": 1367644694,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 311,
+            "holds": 23,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 10970,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 4,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 104,
+            "clears": {
+                "singles": 5,
+                "doubles": 2,
+                "triples": 1,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 22,
+                "faults": 5,
+                "perfectpieces": 101
+            },
+            "finalTime": 52910,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048f8c327e4f03ac20b2c3",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:08:28.656Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048fcdd28d12687421d0a2",
+        "endcontext": {
+            "seed": 121655100,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 320,
+            "holds": 29,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12708,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 2,
+                "doubles": 3,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 6,
+                "faults": 10,
+                "perfectpieces": 96
+            },
+            "finalTime": 53183.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048fcdd28d12687421d0a1",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:09:33.025Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65048ffd2cdcaa4d63bf0882",
+        "endcontext": {
+            "seed": 1349738110,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 311,
+            "holds": 30,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13422,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 3,
+            "currentcombopower": null,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 2,
+                "doubles": 1,
+                "triples": 0,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 48,
+                "faults": 1,
+                "perfectpieces": 100
+            },
+            "finalTime": 45203.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65048ffd2cdcaa4d63bf0881",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:10:21.931Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "6504902dd28d12687421d0bd",
+        "endcontext": {
+            "seed": 896370444,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 324,
+            "holds": 32,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12498,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 2,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 103,
+            "clears": {
+                "singles": 4,
+                "doubles": 2,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 12,
+                "faults": 2,
+                "perfectpieces": 101
+            },
+            "finalTime": 44153.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "6504902dd28d12687421d0bc",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:11:09.769Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "650490fad7bcdbca6906eb72",
+        "endcontext": {
+            "seed": 1837665579,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 303,
+            "holds": 21,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 11962,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 3,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 4,
+                "doubles": 1,
+                "triples": 2,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 102,
+                "faults": 0,
+                "perfectpieces": 102
+            },
+            "finalTime": 47060,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "650490fad7bcdbca6906eb71",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:14:34.227Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "6504917b1fcce341721df45c",
+        "endcontext": {
+            "seed": 813174358,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 343,
+            "holds": 35,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 11830,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 4,
+            "btb": 1,
+            "topbtb": 3,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 104,
+            "clears": {
+                "singles": 4,
+                "doubles": 2,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 5,
+                "faults": 11,
+                "perfectpieces": 97
+            },
+            "finalTime": 49636.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "6504917b1fcce341721df45b",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:16:43.786Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "6504920da133b806668a2cd8",
+        "endcontext": {
+            "seed": 123893144,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 337,
+            "holds": 30,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 14436,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 1,
+            "btb": 10,
+            "topbtb": 10,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 111,
+            "clears": {
+                "singles": 0,
+                "doubles": 0,
+                "triples": 0,
+                "quads": 10,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 67,
+                "faults": 4,
+                "perfectpieces": 109
+            },
+            "finalTime": 49940,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "6504920da133b806668a2cd7",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:19:09.746Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "6504925ba9a268b1c8a41a87",
+        "endcontext": {
+            "seed": 1871168453,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 319,
+            "holds": 34,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12672,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 1,
+            "btb": 0,
+            "topbtb": 5,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 0,
+                "doubles": 1,
+                "triples": 2,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 46,
+                "faults": 4,
+                "perfectpieces": 99
+            },
+            "finalTime": 48921.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "6504925ba9a268b1c8a41a86",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:20:27.809Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049348d256136e9286edc2",
+        "endcontext": {
+            "seed": 213370822,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 324,
+            "holds": 28,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13506,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 104,
+            "clears": {
+                "singles": 3,
+                "doubles": 1,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 6,
+                "faults": 6,
+                "perfectpieces": 101
+            },
+            "finalTime": 44186.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049348d256136e9286edc1",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:24:24.131Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "650493ad55a5bf62f42e972a",
+        "endcontext": {
+            "seed": 92291147,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 329,
+            "holds": 33,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12688,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 1,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 2,
+                "doubles": 3,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 17,
+                "faults": 4,
+                "perfectpieces": 99
+            },
+            "finalTime": 43920,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "650493ad55a5bf62f42e9729",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:26:05.427Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "6504937d29c7402b39a0049f",
+        "endcontext": {
+            "seed": 959338154,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 331,
+            "holds": 32,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13532,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 1,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 104,
+            "clears": {
+                "singles": 4,
+                "doubles": 0,
+                "triples": 0,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 13,
+                "faults": 8,
+                "perfectpieces": 99
+            },
+            "finalTime": 44815,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "6504937d29c7402b39a0049e",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:25:17.774Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "6504942f1fcff132760d0e4d",
+        "endcontext": {
+            "seed": 775052789,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 336,
+            "holds": 29,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 11492,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 5,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 106,
+            "clears": {
+                "singles": 8,
+                "doubles": 2,
+                "triples": 0,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 57,
+                "faults": 4,
+                "perfectpieces": 104
+            },
+            "finalTime": 52473.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "6504942f1fcff132760d0e4c",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:28:15.161Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049ab95a873632a5e2b5ba",
+        "endcontext": {
+            "seed": 604330207,
+            "lines": 41,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 345,
+            "holds": 33,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12952,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 3,
+            "topbtb": 5,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 108,
+            "clears": {
+                "singles": 5,
+                "doubles": 2,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 3,
+                "faults": 6,
+                "perfectpieces": 104
+            },
+            "finalTime": 47156.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049ab95a873632a5e2b5b9",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:56:09.881Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049b1bbc273530894de365",
+        "endcontext": {
+            "seed": 1644010541,
+            "lines": 42,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 377,
+            "holds": 43,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12076,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 1,
+            "topbtb": 3,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 109,
+            "clears": {
+                "singles": 6,
+                "doubles": 2,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 7,
+                "faults": 18,
+                "perfectpieces": 98
+            },
+            "finalTime": 68486.66666666667,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049b1bbc273530894de364",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T17:57:47.132Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049bc9c170032f20ccc386",
+        "endcontext": {
+            "seed": 621862703,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 318,
+            "holds": 14,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13494,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 2,
+                "doubles": 1,
+                "triples": 0,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 2,
+                "faults": 7,
+                "perfectpieces": 97
+            },
+            "finalTime": 54440,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049bc9c170032f20ccc385",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:00:41.349Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049c191fcff132760d0ffb",
+        "endcontext": {
+            "seed": 17940776,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 328,
+            "holds": 38,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13306,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 3,
+                "doubles": 1,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 26,
+                "faults": 6,
+                "perfectpieces": 97
+            },
+            "finalTime": 51425,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049c191fcff132760d0ffa",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:02:01.987Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049c7b29c7402b39a00697",
+        "endcontext": {
+            "seed": 1670229033,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 332,
+            "holds": 38,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12722,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 6,
+                "doubles": 1,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 21,
+                "faults": 11,
+                "perfectpieces": 95
+            },
+            "finalTime": 52471.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049c7b29c7402b39a00696",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:03:39.038Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049cb9c170032f20ccc3b9",
+        "endcontext": {
+            "seed": 974716700,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 339,
+            "holds": 38,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12730,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 104,
+            "clears": {
+                "singles": 3,
+                "doubles": 1,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 7,
+                "faults": 9,
+                "perfectpieces": 100
+            },
+            "finalTime": 58733.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049cb9c170032f20ccc3b8",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:04:41.501Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049cefa9a268b1c8a41cf4",
+        "endcontext": {
+            "seed": 1156263733,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 336,
+            "holds": 32,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 14200,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 1,
+            "btb": 10,
+            "topbtb": 10,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 103,
+            "clears": {
+                "singles": 0,
+                "doubles": 0,
+                "triples": 0,
+                "quads": 10,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 1,
+                "faults": 19,
+                "perfectpieces": 94
+            },
+            "finalTime": 50436.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049cefa9a268b1c8a41cf3",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:05:35.109Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049d96a9a268b1c8a41d24",
+        "endcontext": {
+            "seed": 2089343705,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 328,
+            "holds": 34,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13166,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 103,
+            "clears": {
+                "singles": 3,
+                "doubles": 1,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 49,
+                "faults": 3,
+                "perfectpieces": 101
+            },
+            "finalTime": 41906.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049d96a9a268b1c8a41d23",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:08:22.084Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049e68a133b806668a2f80",
+        "endcontext": {
+            "seed": 688845841,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 318,
+            "holds": 34,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12336,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 6,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 7,
+                "doubles": 1,
+                "triples": 1,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 12,
+                "faults": 5,
+                "perfectpieces": 97
+            },
+            "finalTime": 52196.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049e68a133b806668a2f7f",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:11:52.633Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049ece55a5bf62f42e997b",
+        "endcontext": {
+            "seed": 861230559,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 317,
+            "holds": 24,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12748,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 5,
+                "doubles": 0,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 7,
+                "faults": 9,
+                "perfectpieces": 96
+            },
+            "finalTime": 51335,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049ece55a5bf62f42e997a",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:13:34.534Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049f292cdcaa4d63bf0b86",
+        "endcontext": {
+            "seed": 1446291324,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 323,
+            "holds": 34,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 11806,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 3,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 5,
+                "doubles": 2,
+                "triples": 1,
+                "quads": 7,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 47,
+                "faults": 6,
+                "perfectpieces": 99
+            },
+            "finalTime": 52740,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049f292cdcaa4d63bf0b85",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:15:05.366Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65049f9ae58fbbf255e5a470",
+        "endcontext": {
+            "seed": 1981348255,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 318,
+            "holds": 32,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12488,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 5,
+            "currentcombopower": null,
+            "topcombo": 5,
+            "btb": 0,
+            "topbtb": 3,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 6,
+                "doubles": 1,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 43,
+                "faults": 3,
+                "perfectpieces": 100
+            },
+            "finalTime": 54451.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65049f9ae58fbbf255e5a46f",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:16:58.341Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "6504a003c170032f20ccc4ad",
+        "endcontext": {
+            "seed": 1436026228,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 332,
+            "holds": 39,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13202,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 2,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 8,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 4,
+                "doubles": 2,
+                "triples": 0,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 10,
+                "faults": 1,
+                "perfectpieces": 101
+            },
+            "finalTime": 59603.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "6504a003c170032f20ccc4ac",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:18:43.523Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "6504a081d28d12687421d416",
+        "endcontext": {
+            "seed": 776224070,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 322,
+            "holds": 27,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 13546,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 2,
+            "currentcombopower": 0,
+            "topcombo": 2,
+            "btb": 0,
+            "topbtb": 9,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 2,
+                "doubles": 1,
+                "triples": 0,
+                "quads": 9,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 32,
+                "faults": 5,
+                "perfectpieces": 99
+            },
+            "finalTime": 52481.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "6504a081d28d12687421d415",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-15T18:20:49.251Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
     }
 ]

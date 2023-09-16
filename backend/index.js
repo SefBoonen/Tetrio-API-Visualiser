@@ -3,11 +3,8 @@ const express = require("express");
 const fs = require("fs");
 
 const app = express();
-let user40Ldata = [];
 
 let recentDataStream;
-
-const slowmoUserId = "5ef1242a9f4442112974c692";
 
 let minutes = 1;
 let interval = minutes * 60 * 1000;
@@ -21,6 +18,8 @@ fetchRecentStream();
 setInterval(fetchRecentStream, interval);
 
 async function fetchRecentStream() {
+    const slowmoUserId = "5ef1242a9f4442112974c692";
+
     console.log(new Date)
     recentDataStream = JSON.parse(
         fs.readFileSync(
@@ -98,10 +97,8 @@ app.get("/username/:dynamic", async (req, res) => {
         return response.json();
     });
 
-    const data = news.data.news;
-
-    user40Ldata = [];
-    data.map((e) => {
+    let user40Ldata = [];
+    news.data.news.map((e) => {
         if (e.data.gametype == "40l") {
             user40Ldata.push(e);
         }
