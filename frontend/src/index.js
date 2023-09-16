@@ -126,7 +126,7 @@ async function sendToBack() {
         response.json()
     );
 
-    if (res.status != 200) {
+    if (data.status == 400) {
         alert("user not found");
         return;
     }

@@ -16696,5 +16696,143 @@
             "_id": "5ef1242a9f4442112974c692",
             "username": "slowmodead"
         }
+    },
+    {
+        "_id": "65057c3e327e4f03ac20db6b",
+        "endcontext": {
+            "seed": 1956933178,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 310,
+            "holds": 28,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12952,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 1,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 101,
+            "clears": {
+                "singles": 1,
+                "doubles": 2,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 2,
+                "faults": 3,
+                "perfectpieces": 100
+            },
+            "finalTime": 43346.666666666664,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65057c3e327e4f03ac20db6a",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-16T09:58:22.341Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
+    },
+    {
+        "_id": "65057bd11fcce341721e208b",
+        "endcontext": {
+            "seed": 2110047686,
+            "lines": 40,
+            "level_lines": 0,
+            "level_lines_needed": 1,
+            "inputs": 309,
+            "holds": 18,
+            "time": {
+                "start": 0,
+                "zero": false,
+                "locked": false,
+                "prev": 0,
+                "frameoffset": 0
+            },
+            "score": 12934,
+            "zenlevel": 1,
+            "zenprogress": 0,
+            "level": 1,
+            "combo": 2,
+            "currentcombopower": 0,
+            "topcombo": 3,
+            "btb": 0,
+            "topbtb": 7,
+            "currentbtbchainpower": 0,
+            "tspins": 0,
+            "piecesplaced": 102,
+            "clears": {
+                "singles": 5,
+                "doubles": 0,
+                "triples": 1,
+                "quads": 8,
+                "pentas": 0,
+                "realtspins": 0,
+                "minitspins": 0,
+                "minitspinsingles": 0,
+                "tspinsingles": 0,
+                "minitspindoubles": 0,
+                "tspindoubles": 0,
+                "tspintriples": 0,
+                "tspinquads": 0,
+                "tspinpentas": 0,
+                "allclear": 0
+            },
+            "garbage": {
+                "sent": 0,
+                "received": 0,
+                "attack": 0,
+                "cleared": 0
+            },
+            "kills": 0,
+            "finesse": {
+                "combo": 1,
+                "faults": 7,
+                "perfectpieces": 97
+            },
+            "finalTime": 47353.333333333336,
+            "gametype": "40l"
+        },
+        "ismulti": false,
+        "replayid": "65057bd11fcce341721e208a",
+        "stream": "any_userrecent_5ef1242a9f4442112974c692",
+        "ts": "2023-09-16T09:56:33.526Z",
+        "user": {
+            "_id": "5ef1242a9f4442112974c692",
+            "username": "slowmodead"
+        }
     }
 ]
