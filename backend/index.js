@@ -6,8 +6,8 @@ const app = express();
 
 let recentDataStream;
 
-let minutes = 1;
-let interval = minutes * 60 * 1000;
+const minutes = 1;
+const interval = minutes * 60 * 1000;
 
 app.use(express.json());
 
@@ -69,11 +69,6 @@ async function fetchRecentStream() {
 app.get("/username/:dynamic", async (req, res) => {
     const { dynamic } = req.params;
 
-    if (!dynamic) {
-        return res.status(400).send({ status: "failed" });
-    }
-
-    //get all 40L
     const user = await fetch(`https://ch.tetr.io/api/users/${dynamic}`).then(
         (response) => {
             return response.json();
@@ -84,10 +79,8 @@ app.get("/username/:dynamic", async (req, res) => {
         return res.status(400).send({ status: "user not found" });
     }
 
-    const userid = user.data.user._id;
-
     const news = await fetch(
-        `https://ch.tetr.io/api/news/user_${userid}?limit=100`
+        `https://ch.tetr.io/api/news/user_${user.data.user._id}?limit=100`
     ).then((response) => {
         return response.json();
     });
