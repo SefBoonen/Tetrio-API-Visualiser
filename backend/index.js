@@ -24,9 +24,7 @@ async function fetchRecentStream() {
 
     recentDataStream = JSON.parse(
         fs.readFileSync(path.join(__dirname, "..", `RecentUserData${slowmoUserId}.json`), "utf-8", (err, data) => {
-            if (err) {
-                throw err;
-            }
+            if (err) throw err;
             return data;
         })
     );
