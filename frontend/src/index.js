@@ -51,8 +51,10 @@ async function drawRuns() {
                         wheel: {
                             enabled: true,
                         },
+                        mode: "x",
                     },
                     pan: {
+                        mode: "x",
                         enabled: true,
                     },
                 },
@@ -94,6 +96,7 @@ async function drawRuns() {
     let sum = 0;
 
     for (let i = runs.length - 10; i < runs.length; i++) {
+        console.log(runs[i].endcontext.finalTime);
         sum += runs[i].endcontext.finalTime / 1000;
     }
 
