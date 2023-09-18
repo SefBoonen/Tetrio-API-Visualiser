@@ -8,9 +8,20 @@
         <script src="main.js" defer></script>
     </head>
     <body>
-        <h1 id="averageTime">The average over the last 10 runs:</h1>
-        <canvas id="chartRuns"></canvas>
-        <canvas id="chart"></canvas>
-        <input type="text" id="input" /> <button id="button">send text</button>
+        <div class="app">
+            <h1 id="averageTime">The average over the last 10 runs:</h1>
+            <div class="charts">
+                <h2>All the runs of SlowmoDead</h2>
+                <canvas id="chartRuns"></canvas>
+            </div>
+            <div class="charts">
+                <h2>Compare people</h2>
+                <canvas id="chart"></canvas>
+                <div class="inputs">
+                    <input type="text" id="input" />
+                    <button id="button">send text</button>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

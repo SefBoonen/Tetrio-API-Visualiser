@@ -1,3 +1,29 @@
-#chart {
-    height: 80vh !important;
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 244, 249);
+}
+
+canvas {
+    background-color: rgb(255, 255, 255);
+}
+
+.app {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.charts {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+h2, h1 {
+    margin: 0;
 }
