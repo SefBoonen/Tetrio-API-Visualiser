@@ -94,11 +94,17 @@ async function drawRuns() {
     const runs = await fetch(`${baseUrl}runs`, { method: "GET" }).then((response) => response.json());
 
     let sum = 0;
+    let sumTotal = 0;
 
     for (let i = runs.length - 10; i < runs.length; i++) {
-        console.log(runs[i].endcontext.finalTime);
         sum += runs[i].endcontext.finalTime / 1000;
     }
+
+    for (let i = 0; i < runs.length; i++) {
+        sumTotal += runs[i].endcontext.finalTime / 1000;
+    }
+
+    console.log(sumTotal / runs.length)
 
     averageTime.innerText = `The average over the last 10 runs: ${sum / 10}`;
 
