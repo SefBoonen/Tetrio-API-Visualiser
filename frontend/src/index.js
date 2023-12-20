@@ -98,7 +98,6 @@ async function drawRuns() {
 
     for (let i = runs.length - 10; i < runs.length; i++) {
         sum += runs[i].endcontext.finalTime / 1000;
-        console.log(i - 906 + ": " + runs[i].endcontext.finalTime);
     }
 
     for (let i = 0; i < runs.length; i++) {
