@@ -9,6 +9,7 @@ const averageTime = document.getElementById("averageTime");
 const input = document.getElementById("input");
 const ctx = document.getElementById("chart");
 const ctxRuns = document.getElementById("chartRuns");
+const allTimeAverage = document.getElementById("allTimeAverage");
 
 const colors = ["red", "green", "blue"];
 let lines = 0;
@@ -104,9 +105,8 @@ async function drawRuns() {
         sumTotal += runs[i].endcontext.finalTime / 1000;
     }
 
-    // console.log(sumTotal / runs.length)
-
     averageTime.innerText = `The average over the last 10 runs: ${sum / 10}`;
+    allTimeAverage.innerText = `The average over all runs: ${sumTotal / runs.length}`;
 
     const datasetRuns = {
         type: "scatter",
