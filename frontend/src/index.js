@@ -14,7 +14,7 @@ const allTimeAverage = document.getElementById("allTimeAverage");
 const colors = ["red", "green", "blue"];
 let lines = 0;
 
-const baseUrl = "http://127.0.0.1:3000/";
+const baseUrl = "http://13.51.163.34";
 
 const chart = new Chart(ctx, {
     type: "line",
